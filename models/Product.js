@@ -10,6 +10,13 @@ const ProductSchema = mongoose.Schema({
 
     img:{type: String, required:true},
 
+    video:{type: String},
+
+    wholesaleSeller:{type:String},
+
+    wholesalePrice:{type:Number},
+
+    wholesaleMinimumQuantity:{type:Number},
     categories:{type:Array},
 
     size:{type: Array},

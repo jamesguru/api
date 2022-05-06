@@ -38,7 +38,7 @@ router.post("/", async (req,res) => {
 //UPDATED
 
 
-router.put("/:id", verifyTokenAndAdmin, async(req,res) => {
+router.put("/:id", async(req,res) => {
 
 
     try {
