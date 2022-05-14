@@ -17,6 +17,9 @@ const cartRoute = require("./routes/cart");
 const stripeRoute = require("./routes/stripe");
 const AnnoucementRoute = require("./routes/annoucement");
 
+const CategoryRoute = require("./routes/category");
+
+
 const galleryRoute = require("./routes/gallery");
 
 const promoRoute = require('./routes/promo');
@@ -51,6 +54,8 @@ app.use("/api/carts", cartRoute);
 app.use("/api/slider", sliderRoute);
 
 app.use("/api/annoucement", AnnoucementRoute);
+
+app.use("/api/category", CategoryRoute)
 
 app.use("/api/promotion", promoRoute);
 
