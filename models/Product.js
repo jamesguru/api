@@ -19,11 +19,11 @@ const ProductSchema = mongoose.Schema({
     wholesaleMinimumQuantity:{type:Number},
     categories:{type:Array},
 
-    size:{type: Array},
+    concern:{type: Array},
 
     brand: {type:String},
 
-    color: {type: Array},
+    skintype: {type: Array},
 
     originalPrice:{type:Number, required:true},
     discountedPrice:{type:Number},

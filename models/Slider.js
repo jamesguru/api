@@ -22,6 +22,15 @@ const sliderSchema = mongoose.Schema({
 
     },
 
+    id:{
+
+        type:String,
+
+        require:true,
+
+
+    },
+
     desc:{
 
         type:String,
