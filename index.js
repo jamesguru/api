@@ -33,14 +33,11 @@ dotenv.config();
 
 
 
-
-
-
-
-
 mongoose.connect(process.env.DB_CONNECTION).then(() => {
 
     console.log("DB connection is successfull")
+
+
 }).catch((e) =>{
 
     console.log(e);
